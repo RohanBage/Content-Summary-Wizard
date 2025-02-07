@@ -1,5 +1,8 @@
-import validators
 import streamlit as st
+import os
+os.system("pip install -r requirements.txt")
+
+import validators
 from langchain.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 from langchain.chains.summarize import load_summarize_chain
