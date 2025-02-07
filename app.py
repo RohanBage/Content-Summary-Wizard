@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-os.system("pip install -r requirements.txt")
+os.system("pip install -r requirement.txt")
 
 import validators
 from langchain.prompts import PromptTemplate
