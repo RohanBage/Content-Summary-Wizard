@@ -1,40 +1,3 @@
-<<<<<<< HEAD
-langchain
-python-dotenv
-ipykernel
-langchain-community
-pypdf
-bs4
-arxiv
-pymupdf
-wikipedia
-langchain-text-splitters
-langchain-openai
-chromadb
-sentence_transformers
-langchain_huggingface
-faiss-cpu
-langchain_chroma        
-duckdb
-pandas
-openai
-langchain-groq
-duckduckgo_search==5.3.1b1
-pymupdf
-arxiv
-wikipedia
-mysql-connector-python
-SQLAlchemy
-validators==0.28.1
-youtube_transcript_api
-unstructured
-pytube
-numexpr
-huggingface_hub
-yt-dlp 
-youtube-transcript-api
-streamlit
-=======
 langchain==0.1.13
 langchain-community==0.3.23
 langchain-groq==0.3.2
@@ -45,4 +8,3 @@ pydantic==2.6.4
 httpx==0.27.0
 python-dotenv==1.0.1
 openai==1.23.2
->>>>>>> aebd665f1c5f05acad047426b82c72a65fee7386
