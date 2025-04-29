@@ -1,5 +1,6 @@
-langchain==0.1.13
-langchain-community==0.3.23
+langchain
+langchain-community
+
 langchain-groq==0.3.2
 
 fastapi==0.110.0
