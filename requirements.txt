@@ -13,7 +13,7 @@ chromadb
 sentence_transformers
 langchain_huggingface
 faiss-cpu
-langchain_chroma
+langchain_chroma        
 duckdb
 pandas
 openai
@@ -32,3 +32,4 @@ numexpr
 huggingface_hub
 yt-dlp 
 youtube-transcript-api
+streamlit
