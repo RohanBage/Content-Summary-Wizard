@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pipeline {
     agent any
 
@@ -35,3 +36,42 @@ pipeline {
         }
     }
 }
+=======
+pipeline {
+    agent any
+
+    stages {
+        stage('Clone Repository') {
+            steps {
+                git 'https://github.com/RohanBage/Content-Summary-Wizard.git'
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                sh 'pip install -r requirements.txt'
+            }
+        }
+
+        stage('Run App (Test)') {
+            steps {
+                // Run temporarily for testing (non-blocking in Jenkins)
+                sh 'nohup streamlit run app.py & sleep 10'
+                // Optional: add a curl test here to hit localhost:8501 and confirm it's running
+            }
+        }
+
+        stage('Build Docker Image') {
+            steps {
+                sh 'docker build -t content-summary-wizard .'
+            }
+        }
+
+        stage('Run Docker Container') {
+            steps {
+                sh 'docker run -d -p 8501:8501 content-summary-wizard'
+            }
+        }
+    }
+}
+>>>>>>> aebd665f1c5f05acad047426b82c72a65fee7386

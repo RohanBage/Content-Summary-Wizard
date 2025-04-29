@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 langchain
 python-dotenv
 ipykernel
@@ -33,3 +34,15 @@ huggingface_hub
 yt-dlp 
 youtube-transcript-api
 streamlit
+=======
+langchain==0.1.13
+langchain-community==0.3.23
+langchain-groq==0.3.2
+
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+pydantic==2.6.4
+httpx==0.27.0
+python-dotenv==1.0.1
+openai==1.23.2
+>>>>>>> aebd665f1c5f05acad047426b82c72a65fee7386
