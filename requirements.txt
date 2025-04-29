@@ -1,22 +1,10 @@
-# LangChain core and community integrations
 langchain==0.1.13
 langchain-community==0.3.23
 langchain-groq==0.3.2
 
-# FastAPI for building the backend
 fastapi==0.110.0
-
-# Uvicorn as the ASGI server
 uvicorn[standard]==0.29.0
-
-# OpenAI or other LLM providers if needed
-openai==1.23.2
-
-# Optional: For environment variable management
-python-dotenv==1.0.1
-
-# Pydantic for data models (comes with FastAPI, but pinned for safety)
 pydantic==2.6.4
-
-# If you plan to use Groq or other APIs requiring HTTP clients
 httpx==0.27.0
+python-dotenv==1.0.1
+openai==1.23.2
